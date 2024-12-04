@@ -13,20 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2024-12-02.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "2024-12-02"
-            }
-          },
-          {
-            "id": "1027ff03a982a354",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Processos/Enriquecimento de Bases.md",
                 "mode": "source",
                 "source": false
@@ -35,8 +21,7 @@
               "title": "Enriquecimento de Bases"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -108,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Processos/Enriquecimento de Bases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -117,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for Enriquecimento de Bases"
             }
           },
           {
@@ -176,10 +162,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1027ff03a982a354",
+  "active": "2b73328d05dbdbb1",
   "lastOpenFiles": [
-    "Daily Notes/2024-12-02.md",
+    "Conceitos/Teste KS.md",
     "Processos/Enriquecimento de Bases.md",
+    "Daily Notes/2024-12-04.md",
+    "Diagrama sem nome.drawio.crswap",
+    "Diagrama sem nome.drawio",
+    "Daily Notes/2024-12-02.md",
+    "Daily Notes/2024-11-28.md",
     "Conceitos",
     "Untitled.md",
     "Daily Notes",
@@ -193,9 +184,7 @@
     "Pasted image 20241202155133.png",
     "Pasted image 20241202154758.png",
     "Captura.md",
-    "Conceitos/Teste KS.md",
     "Conceitos/Métricas.md",
-    "Daily Notes/2024-11-28.md",
     "newplot.png",
     "newplot 1.png",
     "Welcome.md"
