@@ -1,8 +1,14 @@
+---
+aliases:
+  - Enrichment
+tags:
+  - processos
+---
 
 ---
 ## Conceito
 
-Frequentemente os clientes fazem abrem chamados (Jira e Topdesk) para enriquecimento de bases contendo CPFs ou CNPJs, esses enriquecimentos trazem scores de vários tipos (sinistro, RF, conversão, etc...). Para checar as informações que dos enriquecimentos para cada cliente deve-se checar a tabela de [Experimentos](https://docs.google.com/spreadsheets/d/1MnY-KUY6qMzgbX2HjRPz1qB6zhwzuN-DbQJWAhXvwEA/edit?gid=0#gid=0) caso seja um cliente novo que não tenha nenhum experimento deve-se utilizar os modelos de [Prateleira](https://docs.google.com/spreadsheets/d/1hzweUnaGSMJ3Mw0Y1G-kSS-ndYqDCNflfTAzLvyR-Is/edit?gid=0#gid=0). Para realizar esses enriquecimentos utilizam-se scripts do PySpark
+Frequentemente os clientes fazem abrem chamados (Jira e Topdesk) para enriquecimento de bases contendo CPFs ou CNPJs, esses enriquecimentos trazem scores de vários tipos (sinistro, RF, conversão, etc...). Para checar as informações que dos enriquecimentos para cada cliente deve-se checar a tabela de [Experimentos](https://docs.google.com/spreadsheets/d/1MnY-KUY6qMzgbX2HjRPz1qB6zhwzuN-DbQJWAhXvwEA/edit?gid=0#gid=0) caso seja um cliente novo que não tenha nenhum experimento deve-se utilizar os modelos de [Prateleira](https://docs.google.com/spreadsheets/d/1hzweUnaGSMJ3Mw0Y1G-kSS-ndYqDCNflfTAzLvyR-Is/edit?gid=0#gid=0). Para realizar esses enriquecimentos utilizam-se scripts do [[Spark]]
 
 ## Prazo de Retorno
 
@@ -19,7 +25,7 @@ Para enriquecimentos de bases com target, precisa-se comparar o [KS](Teste%20KS.
 
 ## Passo-a-Passo
 
-1. Cliente solicita um enriquecimento através de um chamado (Jira,TopDesk)
+1. Cliente solicita um enriquecimento através de um chamado (Jira, TopDesk)
 2. Upload da base do cliente
    - Baixar a base enviada pelo cliente através do [MFT](https://mft.neurotech.com.br/webclient/Login.xhtml) (importante que a base esteja no formato csv)
    - Fazer upload da base no S3 (renomear e converter para bz2)
@@ -28,8 +34,8 @@ Para enriquecimentos de bases com target, precisa-se comparar o [KS](Teste%20KS.
      ```
 3. Processamento da base
    - CEP, CPF e CNPJ devem ser do tipo *long int*
-   - 
-1. Checamos se o cliente já tem [Experimentos](https://docs.google.com/spreadsheets/d/1MnY-KUY6qMzgbX2HjRPz1qB6zhwzuN-DbQJWAhXvwEA/edit?gid=0#gid=0)
+4. Checamos se o cliente já tem [Experimentos](https://docs.google.com/spreadsheets/d/1MnY-KUY6qMzgbX2HjRPz1qB6zhwzuN-DbQJWAhXvwEA/edit?gid=0#gid=0)
+5. 
 
 ### Fluxogramas
 
@@ -39,7 +45,11 @@ flowchart LR
 	markdown["Chamado"]
 	newLines[("Upload Base 
 	MFT")]
-	markdown --> newLines
+	id1["Processamento 
+	da Base"]
+	id2["Verificar
+	Experimentos"]
+	markdown --> newLines --> id1 --> id2
 ```
 ## Obs
 

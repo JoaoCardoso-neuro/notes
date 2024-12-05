@@ -1,3 +1,10 @@
+---
+aliases:
+  - OHE
+  - One-hot
+tags:
+  - conceitos
+---
 
 ---
 

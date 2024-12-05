@@ -3,8 +3,6 @@ aliases:
   - KS
   - Teste de Kolmogorov-Smirnov
 tags:
-  - dados
-  - machinelearning
   - métrica
 ---
 

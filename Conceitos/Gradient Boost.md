@@ -1,3 +1,11 @@
+---
+aliases:
+  - GB
+  - Boosting Trees
+  - Bossting
+tags:
+  - conceitos
+---
 
 ---
 
