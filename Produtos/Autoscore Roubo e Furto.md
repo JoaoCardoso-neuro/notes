@@ -33,7 +33,7 @@ Variáveis fornecidas pela seguradora
 
 ### Variáveis Externas
 
-144 variáveis do catálogo do [[Neurolake]]  e outras variáveis brutas que não fazem parte do catálogo
+144 variáveis do catálogo do [[Neurolake]] e outras variáveis brutas que não fazem parte do catálogo
 
 ## Modelagem
 
@@ -43,8 +43,6 @@ A modelagem foi feita através das soluções [[Hydra]], [[Flame]] e [[Prophet]]
 
 Em uma base de testes tem-se o resultado abaixo:
 
-![](https://lh7-rt.googleusercontent.com/docsz/AD_4nXeonAQDDPI5XL-iK1-ftG_y2n_EVwmhd4sniJR3MUiDYMMXzj7h7AUiBiVIz2jeJ5OAXkMKcw0sH5wOUWITUHMmfgoK_JPcV_IwUO6UAFejSZar8lcUoeHyvJiTISuY-vzcx-wSROifCA5oAudrwuMaJg?key=d6rKKttZVhVn00IuKV9ppg)
+<img src="https://lh7-rt.googleusercontent.com/docsz/AD_4nXeonAQDDPI5XL-iK1-ftG_y2n_EVwmhd4sniJR3MUiDYMMXzj7h7AUiBiVIz2jeJ5OAXkMKcw0sH5wOUWITUHMmfgoK_JPcV_IwUO6UAFejSZar8lcUoeHyvJiTISuY-vzcx-wSROifCA5oAudrwuMaJg?key=d6rKKttZVhVn00IuKV9ppg" alt="Descrição da imagem" width="650" />
 
-Nesse gráfico a base de apólices foi separada em dez faixas (decis) e em seguida a taxa real de roubo e furto foi calculada em cada faixa. Portanto, podemos observar que, quanto maior as observações menor a taxa de RF
-
-Espera-se que os modelos de autoscore RF se comportem dessa maneira
+Nesse gráfico a base de apólices foi separada em dez faixas (decis) e ordenadas pelo score de RF. Em seguida a taxa real de RF foi calculada em cada faixa. Portanto, podemos observar que, nos scores mais altos, a taxa de RF é maior e nos mais baixos a taxa de RF é menor
