@@ -5,9 +5,7 @@ aliases:
 tags:
   - produtos
 ---
-
 ---
-
 ## Conceito
 
 Modelo de classificação binária com funcionamento online para os clientes de cotações de seguro. O modelo gera uma pontuação que indica o potencial do CPF ser roubado ou furtado durante a vigência do seguro

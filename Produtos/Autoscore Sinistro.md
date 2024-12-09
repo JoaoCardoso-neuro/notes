@@ -4,9 +4,7 @@ aliases:
 tags:
   - produtos
 ---
-
 ---
-
 ## Conceito
 
 Modelo de classificação binária com funcionamento online para o público de cotações de seguros que indica o potencial do CPF sofrer qualquer tipo de sinistro durante a vigência do seguro 

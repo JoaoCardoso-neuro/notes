@@ -4,7 +4,6 @@ aliases:
 tags:
   - processos
 ---
-
 ---
 ## Conceito
 

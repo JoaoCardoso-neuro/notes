@@ -6,9 +6,7 @@ aliases:
 tags:
   - conceitos
 ---
-
 ---
-
 ## Prêmio
 
 Valor que o segurado paga à seguradora pelo seguro para transferir a ela o risco previsto nas condições contratuais

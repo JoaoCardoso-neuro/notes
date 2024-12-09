@@ -4,9 +4,7 @@ aliases:
 tags:
   - produtos
 ---
-
 ---
-
 ## Conceito
 
 Modelo estatístico de regressão que funciona online. É uma estimativa do impacto econômico que o CPF pode gerar a seguradora, é calculado pela fórmula abaixo

@@ -4,9 +4,7 @@ aliases:
 tags:
   - produtos
 ---
-
 ---
-
 ## Conceito
 
 Pontuação calculada no momento da cotação que indica a probabilidade de um dado registro estar ou não tentando manipular a cotação. Essa pontuação pode ser usada como um agravo de [Prêmio](Indenização,%20prêmio%20e%20sinistralidade.md) nas cotações mais manipuladas.
