@@ -8,7 +8,7 @@ tags:
 ---
 ## Conceito
 
-Codificador utilizado naa etapa de pré-processamento que transforma variáveis categóricas em numéricas. O one-hot transforma valor único de uma variável em um coluna na base de dados
+Codificador utilizado na etapa de pré-processamento que transforma variáveis categóricas em numéricas. O one-hot transforma valor único de uma variável em um coluna na base de dados
 
 ## Exemplo
 
