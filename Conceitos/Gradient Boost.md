@@ -8,7 +8,6 @@ tags:
 ---
 
 ---
-
 ## Conceito
 
 Método de machine learning que combina várias árvores de decisão mais fracas para criar um modelo mais robusto, esse processo é feito de forma sequencial onde cada árvore tenta corrigir o erro da anterior

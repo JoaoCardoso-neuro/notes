@@ -7,7 +7,6 @@ tags:
 ---
 
 ---
-
 ## Conceito
 
 Métrica utilizada para avaliar a capacidade de modelos em distinguir entre duas classes
