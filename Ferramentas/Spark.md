@@ -72,4 +72,34 @@ print(pd_counts.head())
 
 ## Criando DataFrames
 
-Para criar um dataframe no Spark a partir de um do pandas utilizar *.createDataFrame()* para tabela local e *.createTempView()* 
+Para criar um dataframe no Spark a partir de um do pandas utilizar *.createDataFrame()* para tabela local e *.createOrReplaceTempView()* para subir o dataframe pro *catalog* do spark usando como argumento o nome de tabela.
+
+``` python
+# Create pd_temp
+pd_temp = pd.DataFrame(np.random.random(10))
+
+# Create spark_temp from pd_temp
+spark_temp = spark.createDataFrame(pd_temp)
+
+# Examine the tables in the catalog
+print(spark.catalog.listTables())
+
+# Add spark_temp to the catalog
+spark_temp.createOrReplaceTempView("temp")
+
+# Examine the tables in the catalog again
+print(spark.catalog.listTables())
+```
+
+Também pode-se ler um arquivo csv direto pelo spark
+
+``` python
+# Don't change this file path
+file_path = "/usr/local/share/datasets/airports.csv"
+
+# Read in the airports data
+airports = spark.read.csv(file_path, header=True)
+
+# Show the data
+airports.show()
+```
