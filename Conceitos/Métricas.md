@@ -4,6 +4,6 @@
 ---
 
 - Logloss
-- [[Neurotech/Conceitos/Teste KS|KS]]
+- [KS](Teste%20KS.md)
 - AUC-ROC
 - f1-score 

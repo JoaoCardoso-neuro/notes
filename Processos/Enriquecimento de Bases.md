@@ -7,7 +7,7 @@ tags:
 ---
 ## Conceito
 
-Frequentemente os clientes fazem abrem chamados (Jira e Topdesk) para enriquecimento de bases contendo CPFs ou CNPJs, esses enriquecimentos trazem scores de vários tipos (sinistro, RF, conversão, etc...). Para checar as informações que dos enriquecimentos para cada cliente deve-se checar a tabela de [Experimentos](https://docs.google.com/spreadsheets/d/1MnY-KUY6qMzgbX2HjRPz1qB6zhwzuN-DbQJWAhXvwEA/edit?gid=0#gid=0) caso seja um cliente novo que não tenha nenhum experimento deve-se utilizar os modelos de [Prateleira](https://docs.google.com/spreadsheets/d/1hzweUnaGSMJ3Mw0Y1G-kSS-ndYqDCNflfTAzLvyR-Is/edit?gid=0#gid=0). Para realizar esses enriquecimentos utilizam-se scripts do [[Neurotech/Ferramentas/Spark]]
+Frequentemente os clientes fazem abrem chamados (Jira e Topdesk) para enriquecimento de bases contendo CPFs ou CNPJs, esses enriquecimentos trazem scores de vários tipos (sinistro, RF, conversão, etc...). Para checar as informações que dos enriquecimentos para cada cliente deve-se checar a tabela de [Experimentos](https://docs.google.com/spreadsheets/d/1MnY-KUY6qMzgbX2HjRPz1qB6zhwzuN-DbQJWAhXvwEA/edit?gid=0#gid=0) caso seja um cliente novo que não tenha nenhum experimento deve-se utilizar os modelos de [Prateleira](https://docs.google.com/spreadsheets/d/1hzweUnaGSMJ3Mw0Y1G-kSS-ndYqDCNflfTAzLvyR-Is/edit?gid=0#gid=0). Para realizar esses enriquecimentos utilizam-se scripts do [Spark](Spark.md)
 
 ## Prazo de Retorno
 
@@ -20,7 +20,7 @@ Normalmente quando os enriquecimentos não necessitam de consultas com parceiros
 
 ## Enriquecimentos com Alvo
 
-Para enriquecimentos de bases com target, precisa-se comparar o [KS](Neurotech/Conceitos/Teste%20KS.md)
+Para enriquecimentos de bases com target, precisa-se comparar o [KS](Teste%20KS.md)
 
 ## Passo-a-Passo
 
