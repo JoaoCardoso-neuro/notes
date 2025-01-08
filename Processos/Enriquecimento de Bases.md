@@ -33,10 +33,16 @@ Para enriquecimentos de bases com target, precisa-se comparar o [KS](Teste%20KS.
      ```
 3. Processamento da base
    - CEP, CPF e CNPJ devem ser do tipo *long int*
-4. Checamos se o cliente já tem [Experimentos](https://docs.google.com/spreadsheets/d/1MnY-KUY6qMzgbX2HjRPz1qB6zhwzuN-DbQJWAhXvwEA/edit?gid=0#gid=0)
-5. 
+   - Validar CPFs ou CNPJs (zero a esqueda, cpfs válidos, formato de data)
+   - Criar chave (ID)
+   - Salvar base no Glue e S3
+1. Checamos se o cliente já tem [Experimentos](https://docs.google.com/spreadsheets/d/1MnY-KUY6qMzgbX2HjRPz1qB6zhwzuN-DbQJWAhXvwEA/edit?gid=0#gid=0)
+2. Caso não existam experimentos utilizar modelo de [Prateleira](https://docs.google.com/spreadsheets/d/1hzweUnaGSMJ3Mw0Y1G-kSS-ndYqDCNflfTAzLvyR-Is/edit?gid=0#gid=0)
+3. 
 
 ### Fluxogramas
+
+#### Fluxograma Geral
 
 ```mermaid
 %%{init: {"flowchart": {"htmlLabels": false}} }%% 
@@ -50,6 +56,28 @@ flowchart LR
 	Experimentos"]
 	markdown --> newLines --> id1 --> id2
 ```
+
+#### Fluxograma Processamento da Base
+
+
+```mermaid
+%%{init: {"flowchart": {"htmlLabels": false}} }%% 
+flowchart LR 
+	markdown["Tipo VAR (Long Int)"]
+	id["Validar 
+	Zero a Esquerda"]
+	id1["Validar CPFs"]
+	id2["Criar Chave (ID)"]
+	markdown --> id --> id1 --> id2
+```
+
+## Avaliação
+
+- Missing de variáveis
+- Missing por safra
+- KS
+- KS por Safra
+
 ## Obs
 
 Para salvar arquivos pontuais nos buckets do S3 utiliza-se o **sandbox**, já para arquivos que importantes **seguros**
