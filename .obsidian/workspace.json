@@ -13,29 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Daily Notes/2025-01-06.md",
+                "file": "Processos/Enriquecimento de Bases.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "2025-01-06"
+              "title": "Enriquecimento de Bases"
             }
           },
           {
-            "id": "29fe240840ba0f01",
+            "id": "4a682d8a2227f759",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Investimento EUA.md",
+                "file": "Produtos/Autoscore Sinistro.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Investimento EUA"
+              "title": "Autoscore Sinistro"
+            }
+          },
+          {
+            "id": "75da97ca5938121e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conceitos/Aderência das Variáveis.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Aderência das Variáveis"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -176,17 +191,20 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "03ab9b030975015b",
+  "active": "4a682d8a2227f759",
   "lastOpenFiles": [
+    "Pasted image 20241220181751.png",
+    "Pasted image 20250110140945.png",
     "Investimento EUA.md",
     "Daily Notes/2025-01-06.md",
+    "Conceitos/Aderência das Variáveis.md",
+    "Processos/Enriquecimento de Bases.md",
+    "Daily Notes/2025-01-08.md",
     "Conceitos/Lift.md",
     "Daily Notes/2024-12-26.md",
     "Daily Notes/2024-12-06.md",
-    "Processos/Enriquecimento de Bases.md",
     "Ferramentas/Flame.md",
     "Ferramentas/Spark.md",
-    "Pasted image 20241220181751.png",
     "Daily Notes/2024-12-04.md",
     "Conceitos/Gradient Boost.md",
     "Variação KS1.ipynb",
@@ -203,9 +221,6 @@
     "Ferramentas/Kraken.md",
     "Ferramentas/Hermod.md",
     "Ferramentas/Gleam.md",
-    "Conceitos/Teste KS.md",
-    "Conceitos/One-hot Encoder.md",
-    "Conceitos/Métricas.md",
     "vpn/ta.key",
     "vpn/joao.cardoso.key",
     "vpn/dh.pem",
