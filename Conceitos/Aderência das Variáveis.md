@@ -16,7 +16,7 @@ Checagem da variação das variáveis entre duas bases (teste e treino)
 Aderência das variáveis categóricas
 
 ### Chi-quadrado:
-Teste de hipótese em que verifica se se os valores únicos de uma variável entre duas bases é o mesmo, **quanto maior o chi-square mais diferente as duas bases**
+Teste de hipótese em que verifica se se os valores únicos de uma variável entre duas bases é o mesmo, **quanto maior o chi-square maior a diferença entre as duas bases**
 
 ```python
 # Set para contagem de valores únicos
