@@ -4,39 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "f86af8999aee8f1d",
+        "id": "e3b1e74b41c39768",
         "type": "tabs",
         "children": [
           {
-            "id": "03ab9b030975015b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Processos/Enriquecimento de Bases.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Enriquecimento de Bases"
-            }
-          },
-          {
-            "id": "4a682d8a2227f759",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Produtos/Autoscore Sinistro.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Autoscore Sinistro"
-            }
-          },
-          {
-            "id": "75da97ca5938121e",
+            "id": "4ec1c4b6e5724450",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -47,6 +19,34 @@
               },
               "icon": "lucide-file",
               "title": "Aderência das Variáveis"
+            }
+          },
+          {
+            "id": "d5c08061e1d83946",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Conceitos/Regresão Linear Multipla.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Regresão Linear Multipla"
+            }
+          },
+          {
+            "id": "2600cab01e6ef613",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Processos/Empresarial HDI (Property PJ).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Empresarial HDI (Property PJ)"
             }
           }
         ],
@@ -69,7 +69,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -191,36 +192,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4a682d8a2227f759",
+  "active": "75f42f7e98e291ca",
   "lastOpenFiles": [
+    "Equip Agric Bradesco.md",
+    "Conceitos/Regresão Linear Multipla.md",
+    "Conceitos/Aderência das Variáveis.md",
+    "Daily Notes/Tasks.md",
+    "Processos/Empresarial HDI (Property PJ).md",
+    "Processos/Frota HDI.md",
+    "Processos/Fiança Locatícia TOKIO Antigo (Property PF).md",
+    "Processos/Autoscore Liberty.md",
+    "Processos/Autoscore HDI.md",
+    "Conceitos/Tweedie Regression.md",
+    "Processos/Catálogos PJ.md",
+    "Conceitos/Indenização, prêmio e sinistralidade.md",
+    "Conceitos/Gradient Boost.md",
+    "Produtos/Autoscore Roubo e Furto.md",
+    "Daily Notes/2025-01-08.md",
+    "Processos/Enriquecimento de Bases.md",
+    "Produtos/Autoscore Sinistro.md",
     "Pasted image 20241220181751.png",
     "Pasted image 20250110140945.png",
     "Investimento EUA.md",
     "Daily Notes/2025-01-06.md",
-    "Conceitos/Aderência das Variáveis.md",
-    "Processos/Enriquecimento de Bases.md",
-    "Daily Notes/2025-01-08.md",
     "Conceitos/Lift.md",
     "Daily Notes/2024-12-26.md",
     "Daily Notes/2024-12-06.md",
     "Ferramentas/Flame.md",
     "Ferramentas/Spark.md",
     "Daily Notes/2024-12-04.md",
-    "Conceitos/Gradient Boost.md",
     "Variação KS1.ipynb",
-    "Produtos/Autoscore Sinistro.md",
     "Produtos/Autoscore Severidade.md",
-    "Produtos/Autoscore Roubo e Furto.md",
-    "Produtos/Autoscore Conversão.md",
-    "Produtos/Autoscore Controller.md",
-    "Ferramentas/Prophet.md",
-    "Ferramentas/Postman.md",
-    "Ferramentas/ONNX.md",
-    "Ferramentas/Neurolake.md",
-    "Ferramentas/Hydra.md",
-    "Ferramentas/Kraken.md",
-    "Ferramentas/Hermod.md",
-    "Ferramentas/Gleam.md",
     "vpn/ta.key",
     "vpn/joao.cardoso.key",
     "vpn/dh.pem",

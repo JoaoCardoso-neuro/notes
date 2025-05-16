@@ -1,0 +1,364 @@
+
+---
+
+## Janeiro
+
+### Semana 1 a 2
+- [x] Distribuição Fiança Locatícia
+- [x] Enriquecimento HDI Property
+    - [x] Enriquecer Catálogo 3.1
+    - [x] Enriquecer Catálogo 3.2
+    - [x] Enriquecer Catálogo 3.4
+	- [x] Mover bases do sandbox para seguros
+	- [x] Escorar Vendaval (3.2)
+	- [x] Escorar Danos Elétricos (3.1)
+	- [x] Escorar RF (3.1)
+	- [x] Variáveis (3.4)
+	- [x] Join
+	- [x] Comparar distribuições
+	- [x] Responder HDI
+- [x] Enriquecimento HDI Autoscore
+    - [x] Enriquecer Base
+    - [x] Escorar
+    - [x] Variáveis
+    - [x] Join
+    - [x] Responder HDI
+- [x] Documentação
+    - [x] Documentação Empresarial HDI
+    - [x] Documentação Autoscore HDI
+    - [x] Documentação Autoscore Liberty
+    - [x] Documentação Fiança Locatícia Tokio
+    - [x] Ajustar notebooks
+### Semana 3 a 4
+- [x] Enriquecimento e Avaliação de Desempenho EZZE
+	- [x] Validação da Base
+    - [x] Enriquecimento RS
+    - [x] Enriquecimento CDBR
+    - [x] Enriquecimento HERMOD
+    - [x] Joins
+    - [x] Score RF
+    - [x] Score PT
+    - [x] Classe Bônus 2.0
+    - [x] Avaliação Boca de Jacaré RF e PT (Prêmio)
+          ordenar a base pelo score neurotech e plotar duas series: premio liquido e indenização média = indenização / exposição
+    - [x] Analisar decil classe bônus (filtrar 0 e 10)
+    - [x] Sinistralidade por faixa de score (Soma das indenizações do quantis dividida pela soma dos prêmios. Gerlamente fica perto de 80% ~ 90%). Pode fazer pelos quantis do PT e RF e por classe bônus 2.0.)
+    - [x] Avaliação Taxa de Maus RF e PT por Faixa de Score
+    - [x] Taxa de RF por ponto de corte (1%, 2%, 3%, 4% e 5%)
+    - [x] Soma dos prêmios - Soma das indenizações (repetir o mesmo caso sem 1% dos piores casos, 2%, 5% ....)
+    - [x] Tabela de ponto de corte sugerido para o RF
+    - [x] Apresentação
+    - [x] Ajustar presentação
+    - [ ] Frequência do PT (Gráfico de lift por faixa de score de mercado)
+    - [x] sinistralidade por classe bonus / Indenização média (indenização/exposição) por classe bônus 2.0
+    - [x] Compartilhar os intervalos dos quantis (RF e PT) 
+    - [x] Taxa de maus por restante do ponto de corte
+    - [x] Fazer análise de ponto de corte para o classe bônus 2.0. (O que acontece com sinistralidade se eu remover os classe bonus 2.0 (0-1-2) ?)
+- [x] Fiança Locatícia em Produção
+    - [x] Score B3: Falar com Salazar
+    - [x] Ajustar ONNX Score B3
+    - [x] Ajustar colunas rename
+    - [x] Scorar novamente
+    - [x] Novo modelo sem variaveis ks alto
+- [x] Backtest BP Seguradora
+    - [x] Validar base
+    - [x] Responder comercial
+    - [x] Enriquecimentos
+    - [x] Escoragem
+    - [x] Avaliação
+- [x] Apresentação EZZE
+
+## Fevereiro
+
+### Semana 1 a 2
+- [x] Enriquecimento Autoscore HDI
+	- [x] Validar Base
+	- [x] Enriquecimento
+	- [x] Joins
+	- [x] Recall
+	- [x] Base Retorno
+	- [x] Responder HDI
+- [x] Aderência MAXPAR
+	- [x] Rodar aderência categórica
+	- [x] Rodar aderência numérica
+	- [x] Verificar colunas para exclusão
+- [x] Consulta EZZE
+	- [x] Enriquecimento CEP
+	- [x] HERMOD
+	- [x] RS
+	- [x] CDBR
+	- [x] Join
+	- [x] Recall
+	- [x] Avaliação
+- [x] Enriquecimento HDI Frota
+	- [x] Validar Base
+	- [x] Enriquecimento PF
+	- [x] Enriquecimento PJ PP
+	- [x] Enriquecimento PJ RF e PT
+	- [x] Enriquecimento PF 2.0
+	- [x] Join PF
+	- [x] Join PJ RF PT
+	- [x] Join PJ PP
+	- [x] Join PF 2.0
+	- [x] Recall
+	- [x] Avaliação
+- [x] Autoscore RF Edu Banco Pan
+	- [x] CDBR
+	- [x] RS
+	- [x] HERMOD
+	- [x] Joins
+	- [x] Recall
+	- [x] Avaliação
+- [x] Investcred Weybson
+	- [x] Join
+	- [x] Decis
+	- [x] KS
+	- [x] Matriz Cruzada TV
+
+### Semana 3 a 4
+- [x] Enriquecimento EZZE
+	- [x] Validar Base
+	- [x] CDBR
+	- [x] RS
+	- [x] HERMOD
+	- [x] Join
+	- [x] Recall RF e PT
+	- [x] Classe Bônus 2.0
+	- [x] Join Scores
+	- [x] Avaliação
+- [x] Estudo de Variávies Stepwise
+	- [x] Pegar base InvestCred
+	- [x] Resposta Pet
+- [x] Enriquecimento HDI Empresarial
+	- [x] Validar Base
+	- [x] Cat 3.1
+	- [x] Cat 3.2
+	- [x] Cat 3.4
+	- [x] Recall Danos
+	- [x] Recall RF
+	- [x] Recall Vendaval
+	- [x] Variáveis
+	- [x] Join
+	- [x] Avaliação
+	- [x] Responder JIRA
+- [x] Enriquecimento RF e InvestCred Allianz
+	- [x] Validação das Bases
+	- [x] CDBR
+	- [x] RS
+	- [x] HERMOD
+	- [ ] InvestCred
+	- [ ] InvestCred Cotações
+	- [x] Avaliação
+	- [x] Enriq CEP Base 2024
+	- [x] CDBR 2024
+	- [x] RS 2024
+	- [x] HERMOD 2024
+	- [x] Join 2024
+	- [x] Recall 2024
+	- [x] Verificar CEP Casa Decimal
+	- [x] Colocar CEPs inválidos como nulos
+	- [x] Avaliação 2023
+	- [x] Salvar Bases
+- [x] PDI
+	- [x] Verificar com Celso sobre OKRs
+	- [x] Verificar com Celso requisitos pleno
+	- [x] Confirmar PDI com Celso
+	- [x] Cardápio de Métricas de Avaliação (Snippets)
+	- [x] Contrato de Resultados
+	- [x] Advanced Algorithms Coursera
+	- [x] Ver no GPT
+	- [x] Clusterização Personas
+- [x] Enriquecimento Bradesco
+	- [x] Validação da Base
+	- [x] Enriq CEP
+	- [x] Neurohub
+	- [x] Join
+	- [x] Score
+	- [x] Avaliação
+- [x] Enriquecimento RF Banco Pan Motos
+	- [x] Validação Base
+	- [x] CDBR
+	- [x] HERMO
+	- [x] RS
+	- [x] Join
+	- [x] Avaliação
+	- [x] Avaliação
+	- [x] Responder Edu
+- [x] Enriquecimento RF Banco Pan
+	- [x] Validação
+	- [x] Hermod
+	- [x] CDBR
+	- [x] RS CEP
+	- [x] RS CPF
+	- [x] Join
+	- [x] Avaliação
+	- [x] Salvar Base
+	- [x] Responder Edu
+
+## Março
+
+### Semana 1 a 2
+- [x] Autoscore HDI
+    - [x] Enriquecimento HDI
+    - [x] Enriquecimento Liberty
+    - [x] Joins
+    - [x] Recall RF HDI
+    - [x] Recall Sinistro HDI
+    - [x] Recall RF Liberty
+    - [x] Recall Sinistro Liberty
+    - [x] Join Base Completa
+    - [x] Avaliação
+    - [x] Responder HDI
+- [x] Revisar apresentação Maxpar
+    - [x]  Verificar com Salazar Variáveis
+    - [x] Verificar com Salazar Explicação Matriz Cruzada
+    - [x] Verificar com Salazar Matriz de Confusão
+	- [x] Destaques Farol
+	- [x] Tabela de Resumo Destaques
+- [x] Allianz InvestCred
+    - [x] Cobrar Luis Base Cotações
+    - [x] Devolver Base
+- [x] Documentação HDI Frota
+### Semana 3 a 4
+- [x] HDI Frota
+    - [x] Responder Jira e Email
+    - [x] Validar Base
+    - [x] Enriquecimento CEP
+    - [x] Enriquecimento 3.4
+    - [x] Enriquecimento Catálogos
+    - [x] Recall
+    - [x] Avaliação
+- [x] 180 Seguros
+    - [x] InvestCred
+    - [x] 'FLAG_PROGRAMAS_SOCIAIS', : 'NHPACPF012N12V02',
+    - [x] 'CLASSE_SOCIAL', : 'IFDMCPF001C00V02',
+    - [x] 'SCORE_RISCO_CADASTRAL' : 'IFDMCPF007N00V02',
+    - [x] 'PERSONA_MV' : 'NHMVCPF005C00V02',
+    - [x] 'RATING_PA' : 'NHPACPF021N00V02',
+    - [x] 'ESTAGIO_CARREIRA' : 'NHCRCPF001C00V01',
+    - [x] 'BUSCA_POR_CREDITO_12' : 'PSMCCPF001C12V01'
+    - [x] 'CONCENTRACAO_AGLOMERADO_SUBNORMAL_CATEGORICA' : 'GEORCEP005C00V01'
+    - [x] 'DISTANCIA_AGLOMERADO_SUBNORMAL_CATEGORICA' : 'GEORCEP077C00V01'
+- [x] Modelo Equiq. Agrícolas
+    - [x]  Validação Da Base
+    - [x] Variável Carteira HDI/Yelum
+    - [x] Treinar modelo de frequência
+    - [x] Foco em Taxa de Risco (modelo de frequencia de sinistro)
+    - [x] Modelo Geral:
+	    - [x] Modelo geral em cada base separada
+	    - [x] KS modelo geral por carteira
+    - [x] KS Variável Origem
+    - [x] Modelo Especialista:
+	    - [x] Avaliação variável Origem
+	    - [x] Avaliação Variável Predict Origem
+    - [x] Regressão Weybson
+    - [x] Ordenar Regressão
+    - [x] Verificar Aderência para reduzir overfit
+    - [x] Mostrar Gráfico taxa de risco sem exp
+    - [x] Mostrar gráfico da media da exp por safra
+    - [x] Mostrar gráfico da mediana da exp por safra
+	- [x] Decil, target= exposição (mediana)
+- [x] Verificar Base EZZE
+- [x] Snippets Métricas
+    - [x] Boca de Jacaré
+    - [x] Distribuição do Score
+    - [x] Sinistralidade
+        - [x] Tirar dúvida sobre exposição
+    - [x] Ponto de corte
+    - [x] Taxa de Maus por Ponto de Corte
+    - [x] Taxa de Maus por Faixa de Score
+    - [x] Mostrar ao time
+
+## Abril
+### Semana 1 a 2
+- [x] Autoscore HDI
+    - [x] Validação Base
+    - [x] Enriquecimento HDI
+    - [x] Enriquecimento Yelum
+    - [x] Join
+    - [x] Recall
+    - [x] Avaliação
+- [x] Avaliação Equiq. Agrícolas
+	- [x] Apresentação:
+	    - [x] Proxy Carteira (Matriz de Confusão)
+	    - [x] Taxa de Risco Tweedie
+	    - [x] Frequência Sinistro Tweedie
+- [x] Frota HDI
+    - [x] Enriquecimento CEP
+    - [x] Enriquecimento Catálogos
+    - [x] Recall
+    - [x] Avaliação
+- [x] HDI Porperty PJ
+    - [x] validar Base
+    - [x] Enriiquecimentos Cat.
+    - [x] Recall
+    - [x] Avaliação
+    - [x] Responder Cliente
+    - [x] Planilha
+- [x] Backtest Equip. Agrícolas Bradesco
+    - [x] Validar Base
+    - [x] Data de retorno
+### Semana 3 a 4
+- [x] Backtest Equip. Agrícolas Bradesco
+    - [x] Validar Base
+    - [x] Data de retorno
+    - [x] Enriquecimento PJ
+    - [x] Enriquecimento PF
+    - [x] Avaliação
+- [x] Avaliação Renda 360
+    - [x] Solicitar Enriquecimento
+    - [x] Avaliar Flag Investidor 0
+    - [x] corrigir tv2
+    - [x] Matriz cruzada preenchimento
+    - [x] Matriz cruzada com celulas divididas pela faixa de renda
+    - [x] Matriz cruzada, investcred x renda360
+    - [x] Verificar Severidade comparando com renda
+    - [x] Importância segurada / renda 360 como é a relação
+    - [x] sinistro / renda 360 como é a relação
+    - [ ] treinar regressão para variaveis ortogonais
+- [x] Empresarial SOMPO
+    - [x] Validar Base
+    - [x] Enriq CEP (PF)
+    - [x] Enriq Catalogo 3.5 (PJ)
+    - [x] Enriq Hermod (PF)
+    - [x] Enriq Hermod (PJ)
+    - [x] Responder Sompo
+- [x] Falar Com Celso
+- [x] Abono Ahgora
+
+## Maio
+### Semana 1 a 2
+- [ ] Ajustar Tokio Fiança Locaticia
+    - [x] Verificar Missing da Faixa 4 até 30
+    - [x] Transformar Distribuição para Base de Cotações de Dezembro
+    - [x] Enriquecer Bases
+    - [x] Recall
+    - [x] Avaliação
+    - [x] Base antiga com nova MAE
+    - [x] Responder Cliente
+    - [ ] Fazer doc de Lições Aprendidas (Base de cotações, apólices, distribuição transformada)
+- [x] Autoscore HDI
+- [x] Empresarial HDI
+    - [x] Validar Base
+    - [x] Cat 3.1
+    - [x] Cat 3.2
+    - [x] Cat 3.4
+    - [x] Recall
+    - [x] Join
+    - [x] Responder HDI
+
+## Backlog
+- [ ] Ler Artigos Sobre Visão Comp. em Fraud Detection
+- [ ] Ler Artigo sobre Equip Agricola
+- [ ] Porto Seguro
+    - [ ] Superscore Equifax
+    - [ ] Familia Autoscore
+    - [ ] InvestCred (Safra)
+    - [ ] Classe Bônus 2.0
+- [ ] Zurich Celular e Garantia Estendida
+    - [ ] Renda360
+    - [ ] RF
+    - [ ] RF Celular Pier
+- [ ] Clusterização para Personas
+	- [ ] Renda360
+	- [ ] Classe Bonus 2.0
